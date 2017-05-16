@@ -1,0 +1,91 @@
+{
+    "name": "mnt-image-import",
+    "type": "articlesImages",
+    "tree": {
+        "id": "root",
+        "name": "Root",
+        "type": "node",
+        "children": [
+            {
+                "id": "537359399c80a",
+                "name": "Header",
+                "index": 0,
+                "type": "node",
+                "children": [
+                    {
+                        "id": "537385ed7c799",
+                        "name": "HeaderChild",
+                        "index": 0,
+                        "type": "node",
+                        "shopwareField": ""
+                    }
+                ]
+            },
+            {
+                "id": "537359399c8b7",
+                "name": "images",
+                "index": 1,
+                "type": "node",
+                "shopwareField": "",
+                "children": [
+                    {
+                        "id": "537359399c90d",
+                        "name": "image",
+                        "index": 0,
+                        "type": "iteration",
+                        "adapter": "default",
+                        "parentKey": "",
+                        "shopwareField": "",
+                        "children": [
+                            {
+                                "id": "53ff1e618a9ad",
+                                "type": "leaf",
+                                "index": 0,
+                                "name": "ordernumber",
+                                "shopwareField": "ordernumber"
+                            },
+                            {
+                                "id": "5373865547d06",
+                                "name": "image",
+                                "index": 1,
+                                "type": "leaf",
+                                "shopwareField": "image"
+                            },
+                            {
+                                "id": "537388742e20e",
+                                "name": "main",
+                                "index": 2,
+                                "type": "leaf",
+                                "shopwareField": "main"
+                            },
+                            {
+                                "id": "53e39a698522a",
+                                "type": "leaf",
+                                "index": 3,
+                                "name": "position",
+                                "shopwareField": "position",
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "54004e7bf3a1a",
+                                "type": "leaf",
+                                "index": 4,
+                                "name": "relations",
+                                "shopwareField": "relations",
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "5914755389f67",
+                                "type": "leaf",
+                                "index": 5,
+                                "name": "thumbnail",
+                                "defaultValue": "",
+                                "shopwareField": "thumbnail"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
