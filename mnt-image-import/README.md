@@ -12,5 +12,5 @@
 | `image` | Link zum Bild des Artikels | HTTP-Link | `http://example.com/pfad/zum/bild.jpg` | |
 | `main` | Vorschaubild (ja/nein) | boolean | `0` | 0 = ist nicht Vorschaubild  , 1 = ist Vorschaubild |
 | `position` | Position auf der Artikeldetailseite | numerisch | `2` | Bild mit kleinsten Wert steht an erster Stelle |
-| `relations` | Zuordnung für Variantenartikel | Text | `{Farbe:Rot|Größe:XL}` | Angabe immer in Form von {Gruppe:Option} |
+| `relations` | Zuordnung für Variantenartikel | Text | <code>{Farbe:Rot&#124;Größe:XL}</code> | Angabe immer in Form von {Gruppe:Option} |
 | `thumbnail` | Thumbnails automatisch erstellen? | boolean | `1` | 0 = nein (Thumbnails müssen später manuell erstellt werden), 1 = ja |
