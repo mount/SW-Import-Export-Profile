@@ -1,0 +1,121 @@
+{
+    "name": "mnt-article-import",
+    "type": "articles",
+    "tree": {
+        "id": "root",
+        "name": "Root",
+        "type": "node",
+        "children": [
+            {
+                "id": "4",
+                "name": "articles",
+                "index": 0,
+                "type": "",
+                "children": [
+                    {
+                        "id": "53e0d3148b0b2",
+                        "name": "article",
+                        "index": 0,
+                        "type": "iteration",
+                        "adapter": "article",
+                        "parentKey": "",
+                        "shopwareField": "",
+                        "children": [
+                            {
+                                "id": "53e0d365881b7",
+                                "type": "leaf",
+                                "index": 0,
+                                "name": "ordernumber",
+                                "shopwareField": "orderNumber"
+                            },
+                            {
+                                "id": "53e0d329364c4",
+                                "type": "leaf",
+                                "index": 1,
+                                "name": "mainnumber",
+                                "shopwareField": "mainNumber"
+                            },
+                            {
+                                "id": "53e0d3a201785",
+                                "type": "leaf",
+                                "index": 2,
+                                "name": "name",
+                                "shopwareField": "name"
+                            },
+                            {
+                                "id": "53e0d3fea6646",
+                                "type": "leaf",
+                                "index": 3,
+                                "name": "supplier",
+                                "shopwareField": "supplierName"
+                            },
+                            {
+                                "id": "53e0d4333dca7",
+                                "type": "leaf",
+                                "index": 4,
+                                "name": "tax",
+                                "shopwareField": "tax"
+                            },
+                            {
+                                "id": "53e0d44938a70",
+                                "type": "node",
+                                "index": 5,
+                                "name": "prices",
+                                "shopwareField": "",
+                                "children": [
+                                    {
+                                        "id": "53e0d45110b1d",
+                                        "name": "price",
+                                        "index": 0,
+                                        "type": "iteration",
+                                        "adapter": "price",
+                                        "parentKey": "variantId",
+                                        "shopwareField": "",
+                                        "children": [
+                                            {
+                                                "id": "53e0d472a0aa8",
+                                                "type": "leaf",
+                                                "index": 0,
+                                                "name": "price",
+                                                "shopwareField": "price",
+                                                "defaultValue": ""
+                                            }
+                                        ],
+                                        "attributes": null
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "53fb272db680f",
+                                "type": "leaf",
+                                "index": 6,
+                                "name": "active",
+                                "shopwareField": "active"
+                            },
+                            {
+                                "id": "54211df500e93",
+                                "name": "category",
+                                "index": 7,
+                                "type": "iteration",
+                                "adapter": "category",
+                                "parentKey": "articleId",
+                                "shopwareField": "",
+                                "children": [
+                                    {
+                                        "id": "54211e05ddc3f",
+                                        "type": "leaf",
+                                        "index": 0,
+                                        "name": "categories",
+                                        "shopwareField": "categoryId"
+                                    }
+                                ]
+                            }
+                        ],
+                        "attributes": null
+                    }
+                ],
+                "shopwareField": ""
+            }
+        ]
+    }
+}
