@@ -1,0 +1,7 @@
+"ordernumber";"mainnumber";"name";"supplier";"tax";"kind";"price_EK";"active";"categories";"configOptionName";"additionalText"
+"D123-456.1";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"1";"759.00";"1";"94";"Farbe:Schwarz|Kapazität:32GB";"– Schwarz, 32GB"
+"D123-456.2";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"0";"759.00";"1";"94";"Farbe:Silber|Kapazität:32GB";"– Silber, 32GB"
+"D123-456.3";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"0";"759.00";"1";"94";"Farbe:Gold|Kapazität:32GB";"– Gold, 32GB"
+"D123-456.4";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"0";"869.00";"1";"94";"Farbe:Schwarz|Kapazität:128GB";"– Schwarz, 128GB"
+"D123-456.5";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"0";"869.00";"1";"94";"Farbe:Silber|Kapazität:128GB";"– Silber, 128GB"
+"D123-456.6";"D123-456.1";"iPhone 7";"Apple Inc.";"19.00";"0";"869.00";"1";"94";"Farbe:Gold|Kapazität:128GB";"– Gold, 128GB"

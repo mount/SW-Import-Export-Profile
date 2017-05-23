@@ -1,0 +1,176 @@
+{
+    "name": "mnt-variant-article-import",
+    "type": "articles",
+    "tree": {
+        "id": "root",
+        "name": "Root",
+        "type": "node",
+        "children": [
+            {
+                "id": "4",
+                "name": "articles",
+                "index": 0,
+                "type": "",
+                "children": [
+                    {
+                        "id": "53e0d3148b0b2",
+                        "name": "article",
+                        "index": 0,
+                        "type": "iteration",
+                        "adapter": "article",
+                        "parentKey": "",
+                        "shopwareField": "",
+                        "children": [
+                            {
+                                "id": "53e0d365881b7",
+                                "type": "leaf",
+                                "index": 0,
+                                "name": "ordernumber",
+                                "shopwareField": "orderNumber"
+                            },
+                            {
+                                "id": "53e0d329364c4",
+                                "type": "leaf",
+                                "index": 1,
+                                "name": "mainnumber",
+                                "shopwareField": "mainNumber"
+                            },
+                            {
+                                "id": "53e0d3a201785",
+                                "type": "leaf",
+                                "index": 2,
+                                "name": "name",
+                                "shopwareField": "name"
+                            },
+                            {
+                                "id": "53e0d3fea6646",
+                                "type": "leaf",
+                                "index": 3,
+                                "name": "supplier",
+                                "shopwareField": "supplierName"
+                            },
+                            {
+                                "id": "53e0d4333dca7",
+                                "type": "leaf",
+                                "index": 4,
+                                "name": "tax",
+                                "shopwareField": "tax"
+                            },
+                            {
+                                "id": "57a49838a7656",
+                                "type": "leaf",
+                                "index": 5,
+                                "name": "kind",
+                                "shopwareField": "kind",
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "53e0d44938a70",
+                                "type": "node",
+                                "index": 6,
+                                "name": "prices",
+                                "shopwareField": "",
+                                "children": [
+                                    {
+                                        "id": "53e0d45110b1d",
+                                        "name": "price",
+                                        "index": 0,
+                                        "type": "iteration",
+                                        "adapter": "price",
+                                        "parentKey": "variantId",
+                                        "shopwareField": "",
+                                        "children": [
+                                            {
+                                                "id": "53e0d472a0aa8",
+                                                "type": "leaf",
+                                                "index": 0,
+                                                "name": "price",
+                                                "shopwareField": "price",
+                                                "defaultValue": ""
+                                            }
+                                        ],
+                                        "attributes": null
+                                    }
+                                ],
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "53fb272db680f",
+                                "type": "leaf",
+                                "index": 7,
+                                "name": "active",
+                                "shopwareField": "active",
+                                "defaultValue": 0
+                            },
+                            {
+                                "id": "54211df500e93",
+                                "name": "category",
+                                "index": 8,
+                                "type": "iteration",
+                                "adapter": "category",
+                                "parentKey": "articleId",
+                                "shopwareField": "",
+                                "children": [
+                                    {
+                                        "id": "54211e05ddc3f",
+                                        "type": "leaf",
+                                        "index": 0,
+                                        "name": "categories",
+                                        "shopwareField": "categoryId"
+                                    }
+                                ],
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "55d59e2fc0c56",
+                                "name": "configurator",
+                                "index": 9,
+                                "type": "iteration",
+                                "adapter": "configurator",
+                                "parentKey": "variantId",
+                                "shopwareField": "",
+                                "children": [
+                                    {
+                                        "id": "55d59e3d21483",
+                                        "type": "leaf",
+                                        "index": 0,
+                                        "name": "configGroupName",
+                                        "shopwareField": "configGroupName"
+                                    },
+                                    {
+                                        "id": "55d59e4b02a39",
+                                        "type": "leaf",
+                                        "index": 1,
+                                        "name": "configOptionName",
+                                        "shopwareField": "configOptionName"
+                                    }
+                                ],
+                                "defaultValue": ""
+                            },
+                            {
+                                "id": "591ae649239f6",
+                                "name": "additionalText",
+                                "index": 10,
+                                "type": "iteration",
+                                "adapter": "article",
+                                "parentKey": "variantId",
+                                "children": [
+                                    {
+                                        "id": "591ae64a60660",
+                                        "type": "leaf",
+                                        "index": 0,
+                                        "name": "additionalText",
+                                        "defaultValue": "",
+                                        "shopwareField": "additionalText"
+                                    }
+                                ]
+                            }
+                        ],
+                        "attributes": null
+                    }
+                ],
+                "shopwareField": ""
+            }
+        ]
+    }
+}
