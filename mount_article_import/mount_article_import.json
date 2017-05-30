@@ -1,5 +1,5 @@
 {
-    "name": "mnt-variant-article-import",
+    "name": "01 Mount: Einfacher Artikel Import (mount_article_import)",
     "type": "articles",
     "tree": {
         "id": "root",
@@ -57,17 +57,9 @@
                                 "shopwareField": "tax"
                             },
                             {
-                                "id": "57a49838a7656",
-                                "type": "leaf",
-                                "index": 5,
-                                "name": "kind",
-                                "shopwareField": "kind",
-                                "defaultValue": ""
-                            },
-                            {
                                 "id": "53e0d44938a70",
                                 "type": "node",
-                                "index": 6,
+                                "index": 5,
                                 "name": "prices",
                                 "shopwareField": "",
                                 "children": [
@@ -91,21 +83,19 @@
                                         ],
                                         "attributes": null
                                     }
-                                ],
-                                "defaultValue": ""
+                                ]
                             },
                             {
                                 "id": "53fb272db680f",
                                 "type": "leaf",
-                                "index": 7,
+                                "index": 6,
                                 "name": "active",
-                                "shopwareField": "active",
-                                "defaultValue": 0
+                                "shopwareField": "active"
                             },
                             {
                                 "id": "54211df500e93",
                                 "name": "category",
-                                "index": 8,
+                                "index": 7,
                                 "type": "iteration",
                                 "adapter": "category",
                                 "parentKey": "articleId",
@@ -117,51 +107,6 @@
                                         "index": 0,
                                         "name": "categories",
                                         "shopwareField": "categoryId"
-                                    }
-                                ],
-                                "defaultValue": ""
-                            },
-                            {
-                                "id": "55d59e2fc0c56",
-                                "name": "configurator",
-                                "index": 9,
-                                "type": "iteration",
-                                "adapter": "configurator",
-                                "parentKey": "variantId",
-                                "shopwareField": "",
-                                "children": [
-                                    {
-                                        "id": "55d59e3d21483",
-                                        "type": "leaf",
-                                        "index": 0,
-                                        "name": "configGroupName",
-                                        "shopwareField": "configGroupName"
-                                    },
-                                    {
-                                        "id": "55d59e4b02a39",
-                                        "type": "leaf",
-                                        "index": 1,
-                                        "name": "configOptionName",
-                                        "shopwareField": "configOptionName"
-                                    }
-                                ],
-                                "defaultValue": ""
-                            },
-                            {
-                                "id": "591ae649239f6",
-                                "name": "additionalText",
-                                "index": 10,
-                                "type": "iteration",
-                                "adapter": "article",
-                                "parentKey": "variantId",
-                                "children": [
-                                    {
-                                        "id": "591ae64a60660",
-                                        "type": "leaf",
-                                        "index": 0,
-                                        "name": "additionalText",
-                                        "defaultValue": "",
-                                        "shopwareField": "additionalText"
                                     }
                                 ]
                             }

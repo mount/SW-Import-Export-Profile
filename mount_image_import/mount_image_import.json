@@ -1,5 +1,5 @@
 {
-    "name": "mnt-image-import",
+    "name": "03 Mount: Bild Import (mount_image_import)",
     "type": "articlesImages",
     "tree": {
         "id": "root",
