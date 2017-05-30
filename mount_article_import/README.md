@@ -3,7 +3,7 @@
 # Mount: Shopware einfacher Artikel Import
 
 
->**Wichtig:** Dieses Profil ist zur Anlage einfacher Artikel gedacht. Für Variantenartikel siehe [`mnt-variant-article-import`](https://github.com/mount/SW-Import-Export-Profile/tree/master/mnt-variant-article-import)
+>**Wichtig:** Dieses Profil ist zur Anlage einfacher Artikel gedacht. Für Variantenartikel siehe [`mnt-variant-article-import`](../../../blob/master/mount_variant_article_import)
 
 
 | Feldname     | Beschreibung    | Gültige Werte  | Beispiel  | Besonderheiten |
