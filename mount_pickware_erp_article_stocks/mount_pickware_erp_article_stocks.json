@@ -1,5 +1,5 @@
 {
-    "name": "mount_pickware_erp_article_stocks",
+    "name": "04 Mount: Pickware Artikel-Best\u00e4nde (mount_pickware_erp_article_stocks)",
     "type": "ViisonPickwareERPArticleStocks",
     "tree": {
         "id": "root",
